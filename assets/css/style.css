@@ -11,6 +11,7 @@ img {
 body {
     display: inline-block;
     background-color: #F9F7F5;
+    width: 100%;
 }
 
 h4 {
