@@ -8,25 +8,33 @@ img {
 
 body {
     display: inline-block;
+    background-color: #F9F7F5;
 }
 
 h4 {
     font-size: 1.2em;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 3em;
 }
 
 nav {
-    font-family: 'DM Serif Text', serif;
-    background-color: #bcc8d0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e9edef;
+}
+
+.navbar-brand{
+    font-family: 'DM Serif Text', serif; sans-serif;
 }
 
 h1 {
     font-size: 4.8em;
     font-family: 'DM Serif Text', serif;
+    margin-bottom: .3em;
+    margin-top: .5em;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -40,7 +48,8 @@ footer {
     font-family: 'DM Serif Text', serif;
     font-size: .8em;
     padding: 20px;
-    background-color: #a6b5c0;
+    background-color: #d3dadf;
+    margin-top: 7em;
 }
 
 h2 {
@@ -58,6 +67,10 @@ a {
 
 }
 
+h5{
+    margin-top: 1em;
+}
+
 h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -66,5 +79,16 @@ h6 {
 
 aside{
     float: right;
-    margin-left: 1.5em;
+    margin-left: 2em;
 }
+
+h2{
+    margin-top: .9em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50em;
+    text-decoration: none;
+    
+  }
