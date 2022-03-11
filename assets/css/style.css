@@ -97,8 +97,13 @@ aside {
 h3 {
     font-family: 'DM Serif Text', serif;
     margin-bottom: .8em;
+    margin-top: .5em;
 }
 
 .education{
 line-height: 1.5em;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
 }
