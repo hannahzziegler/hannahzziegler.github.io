@@ -1,7 +1,7 @@
 /* Everything below was starting point after completing homepage */
 
 main {
-    margin-left: 2em;
+    margin-left: 1.5em;
     margin-right: 2em;
 }
 
@@ -25,6 +25,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
     background-color: #e9edef;
     width: 100%;
+    padding-left: .2em
 }
 
 .navbar-brand {
