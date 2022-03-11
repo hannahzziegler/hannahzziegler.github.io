@@ -1,7 +1,8 @@
 /* Everything below was starting point after completing homepage */
 
 main {
-    margin-left: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 img {
@@ -100,8 +101,8 @@ h3 {
     margin-top: .5em;
 }
 
-.education{
-line-height: 1.5em;
+.education {
+    line-height: 1.5em;
 }
 
 li {
