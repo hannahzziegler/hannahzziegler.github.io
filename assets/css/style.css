@@ -1,6 +1,7 @@
 main {
     margin-left: 1.2em;
     margin-right: 2em;
+    margin-bottom: 10px;
 }
 
 img {
@@ -72,15 +73,12 @@ a {
 }
 
 .icons {
-    font-size: 36px;
+    font-size: 30px;
+    margin-bottom: 100px;
 }
 
 .contact_icons {
-    font-size: 18px;
-}
-
-h5 {
-    margin-top: 1em;
+    font-size: 15px;
 }
 
 h6 {
