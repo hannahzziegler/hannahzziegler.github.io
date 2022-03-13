@@ -71,7 +71,15 @@ a:hover {
 a {
     text-decoration: none;
     color: black;
+}
 
+.icons{
+    font-size: 36px;
+    color:red
+}
+
+.contact_icons{
+    font-size: 18px;
 }
 
 h5 {
