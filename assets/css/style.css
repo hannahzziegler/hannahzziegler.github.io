@@ -4,6 +4,13 @@ body {
     display: inline-block;
     background-color: #F9F7F5;
     width: 100%;
+    position: relative;
+    min-height: 100%;
+    padding: 0 0 10rem 0;
+}
+
+html {
+    height: 100vh;
 }
 
 /* NAV */
@@ -18,12 +25,15 @@ nav {
     font-family: 'DM Serif Text', serif;
 }
 
+.navbar-toggler {
+    border: 0;
+}
+
 /* SECTIONS */
 
 main {
     margin-left: 1.2em;
-    margin-right: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 5.5em;
 }
 
 /* IMG */
@@ -32,98 +42,167 @@ img {
     padding: 10px;
 }
 
-/* TEXT */
-
-h1 {
-    font-size: 4.8em;
-    font-family: 'DM Serif Text', serif;
-    margin-bottom: .3em;
-    margin-top: .5em;
-}
-
-h4 {
-    font-size: 1.2em;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 3em;
-}
-
-p {
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.div-class {
-    width: 300px;
-    text-align: left;
+.bio img {
     float: right;
+    height: 500px;
+    margin: 0 0 0 2em;
 }
 
-h2 {
-    margin-top: 1em;
-    margin-bottom: .5em;
-    font-size: 4em;
-    font-family: 'DM Serif Text', serif;
+aside img {
+    height: 500px;
 }
 
-a:hover {
-    color: #375971;
+@media (max-width:775px) {
+    main {
+        margin-left: 1.2em;
+        margin-bottom: 5.5em;
+    }
+
+    .mq-d {
+        display: none;
+        padding-bottom: 2em;
+    }
+
+    h1 {
+        font-family: 'DM Serif Text', serif;
+        margin-bottom: .3em;
+        margin-top: .5em;
+        font-size: 3em;
+    }
+
+    footer {
+        font-family: 'DM Serif Text', serif;
+        font-size: .8em;
+        padding: 20px;
+        background-color: #d3dadf;
+        position: absolute;
+        bottom: 0em;
+        width: 100%;
+        margin-top: 1.2em;
+    }
+
+    .contact_icons {
+        font-size: 15px;
+        color: black;
+    }
+
+    .home-body {
+        margin-top: 10em;
+    }
+
+    h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+    }
+
+    .fa {
+        padding: 0 20px 0 0;
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+
+    i {
+        color: black;
+    }
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+@media (min-width:775px) {
+    .mq-m {
+        display: none;
+    }
 
-.icons {
-    font-size: 30px;
-    margin-bottom: 100px;
-}
+    /* TEXT */
 
-.contact_icons {
-    font-size: 15px;
-}
+    h1 {
+        font-size: 4.8em;
+        font-family: 'DM Serif Text', serif;
+        margin-bottom: .3em;
+        margin-top: .5em;
+    }
 
-.dbk-profile {
-    color: #807978;
-}
+    h4 {
+        font-size: 1.2em;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 3em;
+    }
 
-h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
+    p {
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+    }
 
-aside {
-    float: right;
-    margin-left: 2em;
-}
+    .div-class {
+        width: 300px;
+        text-align: left;
+        float: right;
+    }
 
-h3 {
-    font-family: 'DM Serif Text', serif;
-    margin-bottom: .8em;
-    margin-top: .5em;
-}
+    h2 {
+        margin-top: 1em;
+        margin-bottom: .5em;
+        font-size: 4em;
+        font-family: 'DM Serif Text', serif;
+    }
 
-.education {
-    line-height: 1.5em;
-}
+    a:hover {
+        color: #375971;
+    }
 
-li {
-    font-family: 'Open Sans', sans-serif;
-}
+    a {
+        text-decoration: none;
+        color: black;
+    }
 
-/* TEXT */
+    .icons {
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
 
-footer {
-    font-family: 'DM Serif Text', serif;
-    font-size: .8em;
-    padding: 20px;
-    background-color: #d3dadf;
-    margin-top: 7em;
-}
+    .contact_icons {
+        font-size: 15px;
+    }
 
-.fa {
-    padding: 0 20px 0 0;
-    font-size: 1.2em;
-    text-decoration: none;
+    .dbk-profile {
+        color: #807978;
+    }
+
+    h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+    }
+
+    h3 {
+        font-family: 'DM Serif Text', serif;
+        margin-bottom: .8em;
+        margin-top: .5em;
+    }
+
+    .education {
+        line-height: 1.5em;
+    }
+
+    li {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /* TEXT */
+
+    footer {
+        font-family: 'DM Serif Text', serif;
+        font-size: .8em;
+        padding: 20px;
+        background-color: #d3dadf;
+        position: absolute;
+        bottom: 0em;
+        width: 100%;
+        margin-top: 1.2em;
+    }
+
+    .fa {
+        padding: 0 20px 0 0;
+        font-size: 1.2em;
+        text-decoration: none;
+
+    }
 
 }
