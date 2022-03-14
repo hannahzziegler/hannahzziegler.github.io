@@ -51,14 +51,32 @@ img {
 }
 
 @media (max-width:775px) {
+
     main {
         margin-left: 1.2em;
+        margin-right: 1.2em;
         margin-bottom: 5.5em;
+    }
+
+    h1 {
+        margin-left: .1em;
+        margin-right: .8em;
+    }
+
+    h4 {
+        margin-left: .8em;
+        margin-right: .8em;
+    }
+
+    .bio img {
+        width: 100%;
+        margin-bottom: 2em;
     }
 
     .mq-d {
         display: none;
         padding-bottom: 2em;
+
     }
 
     h1 {
@@ -80,12 +98,8 @@ img {
     }
 
     .contact_icons {
-        font-size: 15px;
+        font-size: 10px;
         color: black;
-    }
-
-    .home-body {
-        margin-top: 10em;
     }
 
     h6 {
@@ -101,6 +115,10 @@ img {
 
     i {
         color: black;
+    }
+
+    .home-body {
+        padding-top: 10px;
     }
 }
 
