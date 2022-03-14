@@ -63,6 +63,10 @@ img {
         margin-right: .8em;
     }
 
+    .icons {
+        text-align: center;
+    }
+
     .bio img {
         width: 100%;
         margin-bottom: 2em;
