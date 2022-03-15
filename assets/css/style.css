@@ -24,6 +24,7 @@ nav {
 
 .navbar-brand {
     font-family: 'DM Serif Text', serif;
+    color: #192841;
 }
 
 .navbar-toggler {
@@ -140,6 +141,7 @@ h1 {
     font-family: 'DM Serif Text', serif;
     margin-bottom: .3em;
     margin-top: .5em;
+    color: #192841;
 }
 
 h4 {
@@ -166,7 +168,11 @@ h2 {
     margin-bottom: .5em;
     font-size: 4em;
     font-family: 'DM Serif Text', serif;
-    color: #242526;
+    color: #192841;
+}
+
+em {
+    color: #1c2e4a
 }
 
 
