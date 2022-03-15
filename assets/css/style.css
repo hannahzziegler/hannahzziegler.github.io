@@ -19,6 +19,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
     background-color: #e9edef;
     width: 100%;
+    color: #3A3B3C;
 }
 
 .navbar-brand {
@@ -69,7 +70,7 @@ img {
 
     .bio img {
         margin-bottom: 2em;
-        
+
     }
 
     .mq-d {
@@ -145,11 +146,13 @@ h4 {
     font-size: 1.2em;
     font-family: 'Open Sans', sans-serif;
     margin-top: 3em;
+    color: #3A3B3C;
 }
 
 p {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
+    color: #3A3B3C;
 }
 
 .div-class {
@@ -163,10 +166,26 @@ h2 {
     margin-bottom: .5em;
     font-size: 4em;
     font-family: 'DM Serif Text', serif;
+    color: #242526;
 }
 
-a:hover {
-    color: #375971;
+
+h5:hover {
+    color: #375971
+}
+
+.fa:hover {
+    color: #375971
+}
+
+.footer-h {
+    color: black;
+    margin-bottom: 1.2em;
+    font-size: 1.5em;
+}
+
+b {
+    color: #6F7F88;
 }
 
 a {
@@ -196,6 +215,8 @@ h3 {
     font-family: 'DM Serif Text', serif;
     margin-bottom: 1.5em;
     margin-top: .5em;
+    color: #375971;
+    ;
 }
 
 .education {
@@ -206,10 +227,11 @@ li {
     font-family: 'Open Sans', sans-serif;
 }
 
-h5{
+h5 {
     font-family: 'DM Serif Text', serif;
-    font-size: 1.2em; 
+    font-size: 1.2em;
     margin-top: 1.8em;
+    color: #6F7F88;
 }
 
 /* TEXT */
@@ -231,3 +253,7 @@ footer {
     text-decoration: none;
 
 }
+
+/* color:#C9BDBB;
+#455A64
+*/
