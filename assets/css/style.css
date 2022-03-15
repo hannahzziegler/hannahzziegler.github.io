@@ -194,7 +194,7 @@ h6 {
 
 h3 {
     font-family: 'DM Serif Text', serif;
-    margin-bottom: .8em;
+    margin-bottom: 1.5em;
     margin-top: .5em;
 }
 
@@ -204,6 +204,12 @@ h3 {
 
 li {
     font-family: 'Open Sans', sans-serif;
+}
+
+h5{
+    font-family: 'DM Serif Text', serif;
+    font-size: 1.2em; 
+    margin-top: 1.8em;
 }
 
 /* TEXT */
