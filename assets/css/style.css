@@ -214,6 +214,11 @@ a {
     color: #807978;
 }
 
+.dbk-profile:hover {
+    color: #375971
+}
+
+
 h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
