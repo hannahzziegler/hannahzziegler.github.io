@@ -181,10 +181,6 @@ h5:hover {
     color: #375971
 }
 
-.fa:hover {
-    color: #375971
-}
-
 .footer-h {
     color: black;
     margin-bottom: 1.2em;
@@ -265,6 +261,10 @@ footer {
     font-size: 1.2em;
     text-decoration: none;
 
+}
+
+.fa:hover {
+    color: #375971
 }
 
 /* color:#C9BDBB;
