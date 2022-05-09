@@ -31,7 +31,20 @@ p {
 }
 
 .photo {
-    padding: 3em
+    padding: 8em
+}
+
+@media (max-width:600px) {
+    .photo {
+        padding: 3em;
+    }
+}
+
+@media (min-width:1000px) {
+    .graphs {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
 }
 
 footer {
