@@ -31,10 +31,11 @@ p {
 }
 
 .photo {
-    padding: 8em
+    padding-right: 8em;
+    padding-left: 8em;
 }
 
-@media (max-width:600px) {
+@media (max-width:700px) {
     .photo {
         padding: 3em;
     }
@@ -44,11 +45,11 @@ p {
     }
 
     i {
-        font-size: .7em;
+        font-size: .6em;
     }
 
     .col-lg-8 {
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .col-lg-4 {
@@ -57,6 +58,10 @@ p {
 
     .first_p {
         padding-top: 2em;
+    }
+
+    .carousel {
+        width: 100%;
     }
 }
 
