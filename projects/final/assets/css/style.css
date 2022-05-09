@@ -38,6 +38,26 @@ p {
     .photo {
         padding: 3em;
     }
+
+    p {
+        font-size: .8em;
+    }
+
+    i {
+        font-size: .7em;
+    }
+
+    .col-lg-8 {
+        font-size: 80%;
+    }
+
+    .col-lg-4 {
+        padding: 3em;
+    }
+
+    .first_p {
+        padding-top: 2em;
+    }
 }
 
 @media (min-width:1000px) {
