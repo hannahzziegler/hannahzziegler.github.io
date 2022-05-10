@@ -80,14 +80,14 @@ p {
 
 @media (max-width:800px) {
     .col-lg-4 {
-        padding-left: 6em;
-        padding-right: 6em;
+        padding-left: 3em;
+        padding-right: 3em;
         padding-top: 3em;
         padding-bottom: 3em;
     }
 
     .photo {
-        padding: 5em;
+        padding: 2em;
     }
 
     p {
@@ -101,11 +101,11 @@ p {
     }
 
     .col-lg-4 {
-        padding: 3em 0 0 0;
+        padding: 2em 0 0 0;
     }
 
     .photo {
-        padding: 3em;
+        padding: 2em;
     }
 
     i {
@@ -115,6 +115,7 @@ p {
     .first_p {
         padding-top: 2em;
     }
+
 }
 
 
