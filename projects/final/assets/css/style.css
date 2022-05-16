@@ -33,7 +33,7 @@ p {
     padding: 3em 8em 3em 8em;
 }
 
-@media (max-width:414px) {
+@media (max-width:500px) {
     .photo {
         padding: 2em;
     }
@@ -55,7 +55,7 @@ p {
     }
 
     .first_p {
-        padding-top: 2em;
+        padding-top: 1em;
     }
 
     .carousel {
@@ -88,9 +88,14 @@ p {
         padding: 1em;
     }
 
-    p {
-        font-size: 1em
+    .photo {
+        padding: 2em 4em;
     }
+
+    .first_p {
+        padding-top: 3em;
+    }
+
 }
 
 footer {
