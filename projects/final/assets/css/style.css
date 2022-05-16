@@ -33,7 +33,7 @@ p {
     padding: 3em 8em 3em 8em;
 }
 
-@media (max-width:500px) {
+@media (max-width:414px) {
     .photo {
         padding: 2em;
     }
@@ -83,7 +83,7 @@ p {
     }
 }
 
-@media (max-width:800px) {
+@media (min-width:750px) {
     .col-lg-4 {
         padding: 1em;
     }
