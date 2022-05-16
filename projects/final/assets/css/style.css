@@ -63,16 +63,11 @@ p {
     }
 
     .carousel {
-        width: 100%;
+        padding: 0em;
     }
 
     .graphs {
         padding: 0em;
-    }
-
-    .carousel {
-        padding: 0em;
-        width: 100%;
     }
 }
 
@@ -162,10 +157,6 @@ i {
     color: #BFBFBF;
     font-style: normal;
     padding-top: 5px;
-}
-
-.carousel {
-    padding: 2em;
 }
 
 h3 {
