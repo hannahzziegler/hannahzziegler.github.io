@@ -58,6 +58,10 @@ p {
         padding-top: 1em;
     }
 
+    .last_p {
+        padding-bottom: 3em;
+    }
+
     .carousel {
         padding: 2em 0em 0em 0em;
     }
