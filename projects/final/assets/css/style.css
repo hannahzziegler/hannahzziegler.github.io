@@ -10,7 +10,7 @@ h6, p {
 p {
     color: #ECECEC;
     padding: 1em 3em 0em 3em;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 h6 {
@@ -106,6 +106,7 @@ h4 {
     color: #BFBFBF;
     letter-spacing: .1em;
     line-height: 2em;
+    font-style: normal;
 }
 
 .col-lg-8 {
@@ -174,5 +175,4 @@ h4 {
     .first_p {
         padding-top: 3em;
     }
-
 }
