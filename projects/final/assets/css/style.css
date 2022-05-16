@@ -18,12 +18,12 @@ h6 {
     font-size: 1em;
 }
 
-.first_p {
+.first_p, .last_p {
     padding-top: 7em;
 }
 
 .last_p {
-    padding-bottom: 10em;
+    padding-bottom: 7em;
 }
 
 .graphs {
