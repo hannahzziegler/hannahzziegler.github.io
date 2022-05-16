@@ -87,10 +87,6 @@ p {
         padding: 1em;
     }
 
-    .photo {
-        padding: 2em;
-    }
-
     p {
         font-size: 1em
     }
@@ -170,10 +166,7 @@ h3 {
 }
 
 .row {
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding: 3em;
 }
 
 h4 {
