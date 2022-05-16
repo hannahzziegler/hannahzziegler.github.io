@@ -93,11 +93,10 @@ p {
 }
 
 footer {
-    padding: 1.5em;
+    padding: 2em;
     background-color: #BFBFBF;
     position: absolute;
     width: 100%;
-    padding-top: 3em;
 }
 
 .fa {
