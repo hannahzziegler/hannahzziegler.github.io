@@ -2,12 +2,21 @@ img {
     width: 100%;
 }
 
+h6, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 p {
     color: #ECECEC;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding: 1em 3em 0em 3em;
     font-size: 1.2em;
+}
+
+h6 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 1em;
 }
 
 .first_p {
@@ -57,13 +66,6 @@ footer {
 
 .fa:hover {
     color: #B50717;
-}
-
-h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    font-size: 1em;
 }
 
 .name {
