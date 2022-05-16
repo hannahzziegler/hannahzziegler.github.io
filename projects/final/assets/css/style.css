@@ -65,6 +65,15 @@ p {
     .carousel {
         width: 100%;
     }
+
+    .graphs {
+        padding: 0em;
+    }
+
+    .carousel {
+        padding: 0em;
+        width: 100%;
+    }
 }
 
 @media (min-width:1000px) {
@@ -156,10 +165,7 @@ i {
 }
 
 .carousel {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-right: 2em;
-    padding-left: 2em;
+    padding: 2em;
 }
 
 h3 {
