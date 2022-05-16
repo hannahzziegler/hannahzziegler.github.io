@@ -66,6 +66,10 @@ h6 {
     font-size: 1em;
 }
 
+h5 {
+    color: black;
+}
+
 .name {
     font-size: .8em;
 }
