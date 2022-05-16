@@ -4,17 +4,16 @@ img {
 
 h6, p {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 p {
     color: #ECECEC;
-    font-weight: 400;
     padding: 1em 3em 0em 3em;
     font-size: 1.2em;
 }
 
 h6 {
-    font-weight: 400;
     text-align: center;
     font-size: 1em;
 }
