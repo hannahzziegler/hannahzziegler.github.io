@@ -26,15 +26,11 @@ p {
 
 .collage {
     width: 100%;
-    padding-top: 5em;
-    padding-bottom: 3em;
+    padding: 5em 0em 3em 0em;
 }
 
 .photo {
-    padding-right: 8em;
-    padding-left: 8em;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding: 3em 8em 3em 8em;
 }
 
 @media (max-width:414px) {
