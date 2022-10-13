@@ -288,7 +288,8 @@ footer {
 }
 
 .datawrapper {
-    width: 600px;
+    max-width: 600px;
+    padding: 1em;
 }
 
 /* color:#C9BDBB;
