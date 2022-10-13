@@ -62,7 +62,7 @@ img {
     }
 
     .datawrapper {
-        width: 200px;
+        width: 100%;
     }
 
     h4 {
@@ -146,6 +146,19 @@ img {
 
     ul {
         padding-right: 15em;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        padding-right: 2em
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 
 }
