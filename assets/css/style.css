@@ -9,6 +9,7 @@ body {
     padding: 0 0 10rem 0;
 }
 
+
 html {
     height: 100vh;
 }
@@ -58,6 +59,10 @@ img {
         margin-left: 1.2em;
         margin-right: 1.2em;
         margin-bottom: 5.5em;
+    }
+
+    .datawrapper {
+        width: 200px;
     }
 
     h4 {
@@ -122,6 +127,11 @@ img {
     .home-body {
         padding-top: 10px;
     }
+
+    ul {
+        padding: 0 2em 0 2em;
+    }
+
 }
 
 @media (min-width:775px) {
@@ -133,9 +143,19 @@ img {
         padding: 10px;
         height: 500px;
     }
+
+    ul {
+        padding-right: 15em;
+    }
+
 }
 
 /* TEXT */
+
+.resume {
+    padding-left: 1em;
+    padding-right: 1em
+}
 
 h1 {
     font-size: 4.8em;
@@ -265,6 +285,10 @@ footer {
 
 .fa:hover {
     color: #375971
+}
+
+.datawrapper {
+    width: 600px;
 }
 
 /* color:#C9BDBB;
