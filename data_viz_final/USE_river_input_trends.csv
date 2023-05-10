@@ -1,0 +1,126 @@
+U.S. Geological Survey
+"Date created: April 17, 2019"
+Contact: Douglas L. Moyer (dlmoyer@usgs.gov)
+Table of trends in flow-normalized load from the Chesapeake Bay River Input Monitoring stations.,
+
+Key to column headings:,
+STAID=USGS Station ID,
+STNAM:=Station name,
+PCODE=Parameter code:,
+,P00600 = Total nitrogen(as N)
+,P00631 = Nitrate (as N)
+,P00665 = Total phosphorus (as P)
+,P00671 = Orthophosphorus (as P)
+,P80154 = Suspended sediment
+START_YEAR = First water year of modeling period used to estimate load,
+END_YEAR = Last water year of modeling period used to estimate load,
+"Trend Period = Length of period over which trend is computed, in years, through 2017.",
+"Lower Confidence Interval, Change in Load = Lower confidence limit (90%) of the estimated change in load, in 10^6 kilograms per year (kg/yr)",
+"Estimated Change in Load = Estimate of flow-normalized load change in Trend Period, in 10^6 kilograms per year (kg/yr)",
+"Upper Confidence Interval, Change in Load = Upper confidence limit (90%) of the estimated change in load, in 10^6 kilograms per year (kg/yr)",
+"Change in Load, in Percent = Total change in flow-normalized load in percent.",
+"Direction of Change in Load = Trend direction, with 3 categories: No Trend, Degrading, Improving",
+"Likelihood that Load is Changing = Likelihood of trend direction, with 4 categories: as Likely as Not (likelihood coef, >0.33 and <0.67), Likely (likelihood coef, >=0.67 and <0.90), Very Likely (likelihood coef, >=0.90 and <0.95), Extremely Likely (likelihood coef, >=0.95 and <=1.0)",
+,
+
+"Nutrient and suspended-sediment concentrations and loads and flow-normalized concentrations and loads were estimated using a weighted regression approach called Weighted Regressions on Time, Discharge, and Season (WRTDS) (Hirsch and others, 2010), which is included in the R (version 3.4.0) software package called EGRET - Exploration and Graphics for RivEr Trends (version 2.6.0) (Hirsch and DeCicco, 2015). The uncertainty associated with the trends of nutrient and sediment loads was estimated using the R package called EGRETci (version 1.0.2) ('ci' stands for confidence intervals) (Hirsch and others, 2015).  The application of WRTDS to generate the results provided in this table is documented in Chanat and others, 2016."
+
+References Cited:
+"Hirsch, R.M., Moyer, D.L., and Archfield, S.A., 2010, Weighted regressions on time, discharge, and season (WRTDS), with an application to Chesapeake Bay river inputs: Journal of the American Water Resources Resources Association, v. 46, no. 5, p. 857-880. http://onlinelibrary.wiley.com/doi/10.1111/j.1752-1688.2010.00482.x/abstract. (accessed May 24, 2016)"
+"Hirsch, R.M. and De Cicco, L.A., 2015, User guide to Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages for hydrologic data (version 2.0, February 2015): U.S. Geological Survey Techniques and Methods book 4, chap. A10, 93 p., http://dx.doi.org/10.3133/tm4A10.(accessed May 24, 2016)"
+"Hirsch, R.M., Archfield, S.A., and De Cicco, L.A., 2015, A bootstrap method for estimating uncertainty of water quality trends: Environmental Modelling and Software, v. 73, p. 148-166. http://dx.doi.org/10.1016/j.envsoft.2015.07.017 (accessed May 24, 2016)" 
+"Chanat, J.G., Moyer, D.L., Blomquist, J.D., Hyer, K.E., and Langland, M.J., 2016, Application of a weighted regression model for reporting nutrient and sediment concentrations, fluxes, and trends in concentration and flux for the Chesapeake Bay Nontidal Water-Quality Monitoring Network, results through water year 2012: U.S. Geological Survey Scientific Investigations Report 2015-5133, 139 p.  http://dx.doi.org/10.3133/sir20155133. (accessed May 24,2016)",
+
+Data provided are archived at the following persistent URL:https://doi.org/10.5066/P9P4H3ZX
+
+"STAID","STNAM","PCODE","START_YEAR","END_YEAR","Trend Period","Lower Confidence Interval, Change in Load","Estimated Change in Load","Upper Confidence Interval, Change in Load","Change in Load, in Percent","Direction of Change in Load","Likelihood that Load is Changing"
+"01491000","Choptank River near Greensboro, Md. ","P00600",1985,2018,10,0.000974,0.0113,0.0196,4.67,"Degrading","Extremely Likely"
+"01491000","Choptank River near Greensboro, Md. ","P00631",1985,2018,10,-0.00728,0.00331,0.0178,2.15,"No Trend","as Likely as Not"
+"01491000","Choptank River near Greensboro, Md. ","P00665",1985,2018,10,0.0039,0.0062,0.008,37.4,"Degrading","Extremely Likely"
+"01491000","Choptank River near Greensboro, Md. ","P00671",1985,2018,10,0.00198,0.00298,0.00402,65.4,"Degrading","Extremely Likely"
+"01491000","Choptank River near Greensboro, Md. ","P80154",1985,2018,10,-0.21,0.257,0.837,11.1,"Degrading","Likely"
+"01578310","Susquehanna River at Conowingo, MD","P00600",1985,2018,10,-5.72,-0.54,6.1,-0.913,"No Trend","as Likely as Not"
+"01578310","Susquehanna River at Conowingo, MD","P00631",1985,2018,10,-3.94,-0.675,4.16,-1.66,"No Trend","as Likely as Not"
+"01578310","Susquehanna River at Conowingo, MD","P00665",1985,2018,10,-1.3,0.0779,0.585,2.49,"No Trend","as Likely as Not"
+"01578310","Susquehanna River at Conowingo, MD","P00671",1985,2018,10,-0.12,0.084,0.171,21,"Degrading","Likely"
+"01578310","Susquehanna River at Conowingo, MD","P80154",1985,2018,10,-1660,-663,-213,-28.3,"Improving","Extremely Likely"
+"01594440","Patuxent River at Bowie, MD","P00600",1985,2018,10,-0.144,-0.119,-0.0828,-20.7,"Improving","Extremely Likely"
+"01594440","Patuxent River at Bowie, MD","P00631",1985,2018,10,-0.141,-0.114,-0.088,-32.2,"Improving","Extremely Likely"
+"01594440","Patuxent River at Bowie, MD","P00665",1985,2018,10,-0.00803,-0.00315,0.00359,-6.4,"Improving","Likely"
+"01594440","Patuxent River at Bowie, MD","P00671",1985,2018,10,-0.00111,-0.000468,0.000167,-7.65,"Improving","Likely"
+"01594440","Patuxent River at Bowie, MD","P80154",1985,2018,10,-7.39,0.281,5.64,1.15,"No Trend","as Likely as Not"
+"01646580","Potomac River at Chain Bridge, MD","P00600",1985,2018,10,-2.69,-1.15,1.75,-5.36,"Improving","Likely"
+"01646580","Potomac River at Chain Bridge, MD","P00631",1985,2018,10,-1.7,-0.84,0.702,-6.71,"Improving","Very Likely"
+"01646580","Potomac River at Chain Bridge, MD","P00665",1985,2018,10,-0.573,0.117,0.323,6.82,"No Trend","as Likely as Not"
+"01646580","Potomac River at Chain Bridge, MD","P00671",1985,2018,10,-0.125,-0.0659,-0.0486,-28.6,"Improving","Extremely Likely"
+"01646580","Potomac River at Chain Bridge, MD","P80154",1985,2018,10,-401,42,431,3,"No Trend","as Likely as Not"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P00600",1985,2018,10,-0.104,0.124,0.286,6.27,"Degrading","Likely"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P00631",1985,2018,10,-0.0935,0.014,0.125,1.62,"No Trend","as Likely as Not"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P00665",1985,2018,10,-0.0765,0.105,0.169,27.9,"Degrading","Likely"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P00671",1985,2018,10,-0.0109,0.00191,0.00644,6.04,"No Trend","as Likely as Not"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P80154",1985,2018,10,-28.5,76.1,149,28.3,"Degrading","Likely"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P00600",1985,2018,10,0.0395,0.0971,0.202,15.5,"Degrading","Extremely Likely"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P00631",1985,2018,10,0.0181,0.037,0.0494,19.5,"Degrading","Extremely Likely"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P00665",1985,2018,10,-0.0134,0.00861,0.0278,10.2,"No Trend","as Likely as Not"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P00671",1985,2018,10,-0.00281,-0.00128,0.000273,-10.6,"Improving","Likely"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P80154",1985,2018,10,-11.5,10,27.5,20.7,"Degrading","Likely"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P00600",1985,2018,10,0.0203,0.0366,0.0563,13.4,"Degrading","Extremely Likely"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P00631",1985,2018,10,0.0128,0.0234,0.0339,33.6,"Degrading","Extremely Likely"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P00665",1985,2018,10,0.000911,0.00386,0.00682,15.2,"Degrading","Extremely Likely"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P00671",1985,2018,10,0.000303,0.000639,0.00111,16.5,"Degrading","Extremely Likely"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P80154",1985,2018,10,0.49,2.25,4.35,35.8,"Degrading","Extremely Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P00600",1985,2018,10,-1.37,-0.162,0.139,-3.09,"Improving","Very Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P00631",1985,2018,10,-0.197,-0.0452,0.0698,-3.05,"Improving","Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P00665",1985,2018,10,-0.465,-0.0922,-0.00445,-7.79,"Improving","Extremely Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P00671",1985,2018,10,-0.021,-0.0143,-0.0022,-20.2,"Improving","Extremely Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P80154",1985,2018,10,-315,-61.6,-19.9,-6.99,"Improving","Extremely Likely"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P00600",1985,2018,10,0.0211,0.0654,0.132,10.8,"Degrading","Extremely Likely"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P00631",1985,2018,10,-0.0244,0.0282,0.063,17.2,"Degrading","Likely"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P00665",1985,2018,10,0.00174,0.00811,0.0167,13.4,"Degrading","Extremely Likely"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P00671",1985,2018,10,0.00153,0.00381,0.00624,41.7,"Degrading","Extremely Likely"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P80154",1985,2018,10,1.27,3.25,6.52,19.9,"Degrading","Extremely Likely"
+"01491000","Choptank River near Greensboro, Md. ","P00600",1985,2018,34,-0.0103,0.011,0.0364,4.56,"Degrading","Likely"
+"01491000","Choptank River near Greensboro, Md. ","P00631",1985,2018,34,0.0207,0.0394,0.0535,33.4,"Degrading","Extremely Likely"
+"01491000","Choptank River near Greensboro, Md. ","P00665",1985,2018,34,0.00503,0.00929,0.015,68.8,"Degrading","Extremely Likely"
+"01491000","Choptank River near Greensboro, Md. ","P00671",1985,2018,34,0.00365,0.005,0.00742,196,"Degrading","Extremely Likely"
+"01491000","Choptank River near Greensboro, Md. ","P80154",1985,2018,34,-1.92,-0.896,2.32,-25.9,"Improving","Likely"
+"01578310","Susquehanna River at Conowingo, MD","P00600",1985,2018,34,-23.3,-16.4,-8.04,-21.8,"Improving","Extremely Likely"
+"01578310","Susquehanna River at Conowingo, MD","P00631",1985,2018,34,-13.7,-6.44,-0.0352,-13.9,"Improving","Extremely Likely"
+"01578310","Susquehanna River at Conowingo, MD","P00665",1985,2018,34,-0.44,0.629,1.28,24.4,"Degrading","Likely"
+"01578310","Susquehanna River at Conowingo, MD","P00671",1985,2018,34,-0.379,0.0674,0.23,16.2,"Degrading","Likely"
+"01578310","Susquehanna River at Conowingo, MD","P80154",1985,2018,34,-1120,583,1150,53.1,"Degrading","Likely"
+"01594440","Patuxent River at Bowie, MD","P00600",1985,2018,34,-0.914,-0.862,-0.755,-65.4,"Improving","Extremely Likely"
+"01594440","Patuxent River at Bowie, MD","P00631",1985,2018,34,-0.628,-0.555,-0.462,-69.8,"Improving","Extremely Likely"
+"01594440","Patuxent River at Bowie, MD","P00665",1985,2018,34,-0.104,-0.0827,-0.0549,-64.2,"Improving","Extremely Likely"
+"01594440","Patuxent River at Bowie, MD","P00671",1985,2018,34,-0.027,-0.0206,-0.00742,-78.5,"Improving","Extremely Likely"
+"01594440","Patuxent River at Bowie, MD","P80154",1985,2018,34,-27.2,-16.4,0.477,-39.8,"Improving","Extremely Likely"
+"01646580","Potomac River at Chain Bridge, MD","P00600",1985,2018,34,-6.24,-2.86,-0.207,-12.4,"Improving","Extremely Likely"
+"01646580","Potomac River at Chain Bridge, MD","P00631",1985,2018,34,-3.26,-1.55,1.05,-11.7,"Improving","Likely"
+"01646580","Potomac River at Chain Bridge, MD","P00665",1985,2018,34,-0.913,-0.396,-0.0262,-17.8,"Improving","Extremely Likely"
+"01646580","Potomac River at Chain Bridge, MD","P00671",1985,2018,34,-0.662,-0.435,-0.208,-72.6,"Improving","Extremely Likely"
+"01646580","Potomac River at Chain Bridge, MD","P80154",1985,2018,34,-2230,-996,842,-40.9,"Improving","Very Likely"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P00600",1985,2018,34,-0.707,-0.307,0.544,-12.7,"Improving","Likely"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P00631",1985,2018,34,-0.357,-0.0978,0.205,-10,"Improving","Likely"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P00665",1985,2018,34,-0.0175,0.165,0.482,52.5,"Degrading","Very Likely"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P00671",1985,2018,34,-0.0176,-0.00385,0.0116,-10.3,"Improving","Likely"
+"01668000","RAPPAHANNOCK RIVER NEAR FREDERICKSBURG, VA","P80154",1985,2018,34,-5.54,153,385,79.9,"Degrading","Extremely Likely"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P00600",1985,2018,34,-0.00631,0.0802,0.201,12.4,"Degrading","Extremely Likely"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P00631",1985,2018,34,0.0364,0.0523,0.0951,30,"Degrading","Extremely Likely"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P00665",1985,2018,34,0.000579,0.0408,0.0711,78.2,"Degrading","Extremely Likely"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P00671",1985,2018,34,-0.00745,-0.0035,0.00506,-24.4,"Improving","Likely"
+"01673000","PAMUNKEY RIVER NEAR HANOVER, VA","P80154",1985,2018,34,-21.2,26.5,62.4,82.7,"Degrading","Very Likely"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P00600",1985,2018,34,-0.0547,-0.00854,0.0536,-2.68,"No Trend","as Likely as Not"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P00631",1985,2018,34,-0.0062,0.0196,0.0498,26.6,"Degrading","Likely"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P00665",1985,2018,34,-0.00382,0.00193,0.0128,7.04,"Degrading","Likely"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P00671",1985,2018,34,-0.0046,-0.00244,0.000215,-35,"Improving","Extremely Likely"
+"01674500","MATTAPONI RIVER NEAR BEULAHVILLE, VA","P80154",1985,2018,34,-2.1,0.906,6,11.8,"Degrading","Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P00600",1985,2018,34,-1.97,-0.871,0.609,-14.6,"Improving","Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P00631",1985,2018,34,-0.535,-0.31,0.162,-17.8,"Improving","Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P00665",1985,2018,34,-1.43,-0.606,-0.0317,-35.7,"Improving","Extremely Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P00671",1985,2018,34,-0.883,-0.709,-0.469,-92.6,"Improving","Extremely Likely"
+"02035000","JAMES RIVER AT CARTERSVILLE, VA","P80154",1985,2018,34,-310,155,424,23.4,"Degrading","Likely"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P00600",1985,2018,34,-0.0746,0.000925,0.166,0.138,"No Trend","as Likely as Not"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P00631",1985,2018,34,-0.0797,-0.00418,0.055,-2.13,"No Trend","as Likely as Not"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P00665",1985,2018,34,0.0138,0.027,0.0483,64.7,"Degrading","Extremely Likely"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P00671",1985,2018,34,1.5e-05,0.00357,0.00641,38.1,"Degrading","Extremely Likely"
+"02041650","APPOMATTOX RIVER AT MATOACA, VA","P80154",1985,2018,34,-6.36,1.23,12.1,6.67,"No Trend","as Likely as Not"
